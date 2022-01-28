@@ -22,9 +22,11 @@ html {
 
 /* gap // spacing */
 :root {
+  --gap--largest: 2rem 3.5rem;
   --gap-large: 1.5rem 2.5rem;
   --gap-medium: 1rem 1.5rem;
   --gap-small: 0.5rem 1rem;
+  --gap-smallest: 0.25rem 0.5rem;
 }
 
 /* default decoration for list link and buttons */
