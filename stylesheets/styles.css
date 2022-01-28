@@ -1,0 +1,150 @@
+@import url("default.css");
+
+/* nav design */
+
+header {
+  position: sticky;
+  top: 0;
+  background-color: var(--background-color);
+  border-bottom: 1px solid gray;
+}
+.logo {
+  width: 110px;
+  height: 110px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  color: var(--primary-color);
+}
+.title h1 {
+  padding: 1rem;
+}
+nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--gap-large);
+}
+a {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+  padding: var(--gap-small);
+  background-color: var(--primary-color);
+}
+a:hover {
+  background-color: var(--hover-color);
+  padding: var(--gap-small);
+  border-radius: 0.3rem;
+}
+a:active {
+  background-color: var(--extra-color);
+}
+
+/* main content design */
+.container-main {
+  /* height: calc(100vh-"nav height"); */
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 3.5rem;
+}
+p {
+  font-size: 1.5rem;
+  padding: var(--gap-large);
+}
+span {
+  color: var(--primary-color);
+}
+.secondary-span {
+  color: var(--secondary-color);
+}
+
+.buttons button {
+  font-size: 1.2rem;
+  color: black;
+}
+
+.button-primary {
+  background-color: var(--primary-color);
+  padding: var(--gap-medium);
+  margin: var(--gap-medium);
+}
+
+.button-primary:hover,
+.button-secondary:hover {
+  opacity: 90%;
+}
+.button-primary:active,
+.button-secondary:active {
+  background-color: var(--extra-color);
+}
+
+.button-secondary {
+  background-color: var(--secondary-color);
+  padding: var(--gap-medium);
+  margin: var(--gap-medium);
+}
+
+/* installation */
+.install {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.code {
+  display: flex;
+  justify-content: center;
+}
+
+/* footer */
+footer {
+  background-color: var(--background-color);
+  padding: var(--gap-medium);
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer li {
+  padding: var(--gap-medium);
+}
+
+/* media query for pad */
+
+@media (max-width: 1000px) {
+  html {
+    font-size: 75%;
+  }
+  nav {
+    padding: var(--gap-medium);
+  }
+
+  .logo {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+/* media query for mobile */
+@media (max-width: 750px) {
+  html {
+    font-size: 62.5%;
+  }
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
+  nav {
+    padding: var(--gap-small);
+  }
+}
