@@ -29,8 +29,8 @@ main header {
 }
 .icon-bell p {
   position: absolute;
-  top: -0.9rem;
-  right: -0.45rem;
+  top: -8px;
+  right: 10px;
   padding: var(--gap-smallest);
 }
 .icon-message {
@@ -38,8 +38,8 @@ main header {
 }
 .icon-message p {
   position: absolute;
-  top: -0.9rem;
-  right: -0.5rem;
+  top: -8px;
+  right: 5px;
   padding: var(--gap-smallest);
 }
 
@@ -75,8 +75,8 @@ iframe {
 }
 .user-active p {
   position: absolute;
-  bottom: 0.55rem;
-  right: 0.8rem;
+  bottom: 14px;
+  right: 28px;
   padding: 0.4rem;
 
   border: 1px solid white;
@@ -88,8 +88,8 @@ iframe {
 }
 .user-inactive p {
   position: absolute;
-  bottom: 0.55rem;
-  right: 0.8rem;
+  bottom: 14px;
+  right: 28px;
   padding: 0.4rem;
 
   border: 1px solid white;
@@ -100,8 +100,8 @@ iframe {
 }
 .user-dnd p {
   position: absolute;
-  bottom: 0.55rem;
-  right: 0.8rem;
+  bottom: 14px;
+  right: 28px;
   padding: 0.4rem;
 
   border: 1px solid white;
