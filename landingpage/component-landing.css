@@ -129,7 +129,8 @@ main .header {
 }
 .mobile-nav {
   display: none;
-  position: relative;
+  position: sticky;
+  z-index: 2;
   top: 0;
   left: 100%;
   width: 100%;
