@@ -1,0 +1,108 @@
+@import url(/stylesheets/default.css);
+
+main header {
+  height: 100%;
+}
+.alert-link {
+  background-color: var(--extra-color);
+}
+
+/* alert css here */
+.success-alert,
+.error-alert,
+.warning-alert {
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  margin: var(--gap-medium);
+  padding: var(--gap-medium);
+
+  /* slide css */
+  display: none;
+  position: relative;
+  left: 100%;
+  transition: 0.4s;
+  /* slide css */
+
+  border: 0.5px solid grey;
+  box-shadow: 10px 5px 5px grey;
+}
+
+/* slide css open */
+.success-alert.active,
+.error-alert.active,
+.warning-alert.active {
+  display: flex;
+  left: 0;
+}
+/* slide css close */
+
+.success-alert {
+  border-bottom: 5px solid rgb(13, 214, 13);
+}
+
+.success-alert i {
+  color: rgb(13, 214, 13);
+}
+
+.error-alert {
+  border-bottom: 5px solid red;
+}
+
+.error-alert i {
+  color: red;
+}
+.warning-alert {
+  border-bottom: 5px solid yellow;
+}
+.warning-alert i {
+  color: yellow;
+}
+
+.success-button,
+.error-button,
+.warning-button {
+  margin: var(--gap-medium);
+  padding: var(--gap-medium);
+}
+
+.success-button {
+  background-color: rgb(13, 214, 13);
+}
+.error-button {
+  background-color: red;
+}
+.warning-button {
+  background-color: yellow;
+}
+
+.success-button:hover,
+.error-button:hover,
+.warning-button:hover {
+  opacity: 65%;
+}
+.success-button:active,
+.error-button:active,
+.warning-button:active {
+  opacity: 165%;
+}
+
+.close-success-alert:hover,
+.close-error-alert:hover,
+.close-warning-alert:hover {
+  background-color: rgb(180, 180, 180);
+  border-radius: 100%;
+  padding: 1px 3px;
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .success-alert,
+  .error-alert,
+  .warning-alert {
+    width: 25rem;
+  }
+}

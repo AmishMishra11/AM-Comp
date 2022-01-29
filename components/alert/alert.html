@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="/landingpage/component-landing.css" />
 
-    <title>AM-Components</title>
+    <!-- alert stylesheet -->
+    <link rel="stylesheet" href="alert.css" />
+
+    <title>AM-Alert</title>
   </head>
   <body>
     <header>
@@ -94,7 +97,9 @@
             >
           </li>
           <li>
-            <a class="border-radius-S" href="/components/badge/badge.html"
+            <a
+              class="border-radius-S badge-link"
+              href="/components/badge/badge.html"
               >Badge</a
             >
           </li>
@@ -119,7 +124,9 @@
             >
           </li>
           <li>
-            <a class="border-radius-S" href="/components/badge/badge.html"
+            <a
+              class="border-radius-S badge-link"
+              href="/components/badge/badge.html"
               >Badge</a
             >
           </li>
@@ -131,12 +138,38 @@
       </aside>
       <main>
         <div class="header">
-          <h1>Hi Welcome to my component liberary.</h1>
-          <h2>Click on any components to begin</h2>
+          <!-- alert starts here -->
+          <h2>Alert</h2>
+          <hr />
+          <p>
+            Alert messages inform user about the success or faliure of a task
+          </p>
+
+          <button class="success-button border-radius-L">Success</button>
+          <div class="success-alert border-radius-S">
+            <i class="fas fa-check-circle"></i>
+            <p>success task</p>
+            <button class="close-success-alert">x</button>
+          </div>
+          <button class="error-button border-radius-L">Error</button>
+          <div class="error-alert border-radius-S">
+            <i class="fas fa-exclamation-circle"></i>
+            <p>error occured</p>
+            <button class="close-error-alert">x</button>
+          </div>
+          <button class="warning-button border-radius-L">Warning</button>
+          <div class="warning-alert border-radius-S">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>try again!</p>
+            <button class="close-warning-alert">x</button>
+          </div>
+
+          <!-- alert ends here -->
         </div>
       </main>
     </div>
 
-    <script src="component-landing.js"></script>
+    <script src="/landingpage/component-landing.js"></script>
+    <script src="alert.js"></script>
   </body>
 </html>
