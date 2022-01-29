@@ -62,7 +62,7 @@ main {
   background-color: var(--extra-color);
 }
 main .header {
-  height: 80vh;
+  min-height: 80vh;
   background-color: white;
   margin: var(--gap--largest);
 }
@@ -80,13 +80,15 @@ aside ul {
   justify-content: space-around;
   align-items: center;
 }
+aside a:focus {
+  background-color: var(--extra-color);
+}
 
 /* content for main */
 
 main .header {
   display: flex;
   flex-direction: column;
-
   justify-content: center;
   align-items: center;
 }

@@ -1,0 +1,116 @@
+@import url(/stylesheets/default.css);
+
+main header {
+  height: 100%;
+}
+.badge-link {
+  background-color: var(--extra-color);
+}
+.badge-1 {
+  margin: var(--gap-large);
+}
+.badges-icon {
+  display: flex;
+  justify-content: center;
+  padding: var(--gap-small);
+}
+.badges-icon a {
+  background-color: white;
+  color: black;
+}
+.badges-icon p {
+  font-size: 0.8rem;
+  text-align: center;
+  color: white;
+  background-color: var(--primary-color);
+}
+.icon-bell {
+  position: relative;
+}
+.icon-bell p {
+  position: absolute;
+  top: -8px;
+  right: 10px;
+  padding: var(--gap-smallest);
+}
+.icon-message {
+  position: relative;
+}
+.icon-message p {
+  position: absolute;
+  top: -8px;
+  right: 5px;
+  padding: var(--gap-smallest);
+}
+
+/* iframe */
+iframe {
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+/* avatar  */
+.badge-2 {
+  margin: var(--gap-large);
+}
+
+.badges-avatar {
+  display: flex;
+  justify-content: center;
+  padding: var(--gap-small);
+}
+.badges-avatar a {
+  background-color: white;
+  color: black;
+}
+
+.badges-avatar i {
+  border-radius: 5rem;
+  padding: 1rem;
+  border: 2px solid black;
+}
+.user-active {
+  position: relative;
+}
+.user-active p {
+  position: absolute;
+  bottom: 14px;
+  right: 28px;
+  padding: 0.4rem;
+
+  border: 1px solid white;
+  background-color: green;
+}
+
+.user-inactive {
+  position: relative;
+}
+.user-inactive p {
+  position: absolute;
+  bottom: 14px;
+  right: 28px;
+  padding: 0.4rem;
+
+  border: 1px solid white;
+  background-color: grey;
+}
+.user-dnd {
+  position: relative;
+}
+.user-dnd p {
+  position: absolute;
+  bottom: 14px;
+  right: 28px;
+  padding: 0.4rem;
+
+  border: 1px solid white;
+  background-color: red;
+}
+@media (max-width: 800px) {
+  .badges-icon,
+  .badges-avatar {
+    display: inline-flex;
+    flex-direction: column;
+  }
+}
