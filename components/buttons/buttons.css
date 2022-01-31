@@ -10,7 +10,7 @@ main header {
 /* buttons css */
 
 /* primary */
-.primary-buttons button {
+.button button {
   font-size: 1.3rem;
   color: black;
   padding: var(--gap-small);
