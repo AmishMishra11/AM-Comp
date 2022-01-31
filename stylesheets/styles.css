@@ -55,6 +55,7 @@ a:active {
 }
 h1 {
   font-size: 3rem;
+  padding: var(--gap-small);
 }
 h2 {
   font-size: 2rem;
