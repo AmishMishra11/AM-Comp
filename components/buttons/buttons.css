@@ -1,0 +1,130 @@
+@import url(/stylesheets/default.css);
+
+main header {
+  height: 100%;
+}
+.buttons-link {
+  background-color: var(--extra-color);
+}
+
+/* buttons css */
+
+/* primary */
+.button button {
+  font-size: 1.3rem;
+  color: black;
+  padding: var(--gap-small);
+  margin: var(--gap-medium);
+}
+
+.button-primary {
+  background-color: var(--primary-color);
+}
+.button-secondary {
+  background-color: var(--secondary-color);
+}
+
+.button-primary:hover,
+.button-secondary:hover {
+  opacity: 65%;
+}
+
+.primary-buttons button:active {
+  background-color: var(--extra-color);
+}
+
+/* link css */
+.link {
+  margin: var(--gap-medium);
+}
+
+.link a {
+  color: var(--background-color);
+  background-color: var(--extra-color);
+  padding: var(--gap-small);
+  margin: var(--gap-medium);
+}
+
+.link a:hover {
+  color: var(--secondary-color);
+  background-color: var(--hover-color);
+}
+
+/* icons */
+.icon {
+  margin: var(--gap-medium);
+}
+.icon a {
+  background-color: white;
+  padding: var(--gap-smallest);
+  margin: var(--gap-medium);
+}
+.icon a:hover {
+  background-color: var(--secondary-color);
+  color: black;
+  opacity: 65%;
+}
+.icon a:active {
+  color: var(--primary-color);
+  background-color: white;
+}
+
+/* floating action button */
+
+.fab .container {
+  background-color: var(--secondary-color);
+  height: 25rem;
+  width: 20rem;
+  margin: var(--gap-medium);
+  position: relative;
+}
+
+.fab .container button {
+  background-color: rgb(0, 174, 255);
+  padding: 1rem;
+  position: absolute;
+  bottom: 2rem;
+  right: 2rem;
+}
+
+.fab .container button:hover {
+  background-color: rgb(0, 174, 255);
+  opacity: 65%;
+}
+
+@media (max-width: 700px) {
+  .primary-buttons button {
+    padding: var(--gap-small);
+    margin: var(--gap-small);
+  }
+
+  .link {
+    margin: var(--gap-small);
+  }
+
+  .link a {
+    padding: var(--gap-smallest);
+    margin: var(--gap-small);
+  }
+
+  .primary-buttons button,
+  .link a {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .fab .container {
+    height: 15rem;
+    width: 10rem;
+    margin: var(--gap-small);
+    position: relative;
+  }
+
+  .fab .container button {
+    padding: 0.5rem;
+
+    bottom: 1rem;
+    right: 1rem;
+  }
+} ;
