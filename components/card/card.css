@@ -106,3 +106,22 @@ main header {
 .shadow:hover {
   box-shadow: 20px 10px 10px grey;
 }
+@media (max-width: 600px) {
+  .item {
+    height: 254px;
+    width: 234px;
+  }
+  .card {
+    padding: var(--gap-smallest);
+  }
+}
+
+@media (max-width: 400px) {
+  .item {
+    height: 204px;
+    width: 184px;
+  }
+  .card {
+    padding: var(--gap-smallest);
+  }
+}

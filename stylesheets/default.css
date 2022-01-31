@@ -52,3 +52,14 @@ button {
 .border-radius-Circle {
   border-radius: 100%;
 }
+@media (max-width: 800px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 62.5%;
+  }
+}
