@@ -1,0 +1,22 @@
+@import url(/stylesheets/default.css);
+
+main header {
+  height: 100%;
+}
+.images-link {
+  background-color: var(--extra-color);
+}
+
+/* images css */
+
+.responsive-image {
+  width: 100%;
+  max-width: 50rem;
+  height: auto;
+}
+
+.round-image {
+  margin: var(--gap-medium);
+  max-width: 15rem;
+  border-radius: 50%;
+}
