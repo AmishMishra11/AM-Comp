@@ -1,0 +1,38 @@
+@import url(/stylesheets/default.css);
+
+main header {
+  height: 100%;
+}
+.avatar-link {
+  background-color: var(--extra-color);
+}
+
+/* avatar css */
+
+.container-avatar {
+  max-width: 50rem;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.avatar {
+  border-radius: 50%;
+  /* padding: var(--gap-medium);*/
+  margin: var(--gap-medium);
+}
+
+.av-s {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.av-m {
+  width: 5rem;
+  height: 5rem;
+}
+
+.av-l {
+  width: 10rem;
+  height: 10rem;
+}
