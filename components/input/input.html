@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="/landingpage/component-landing.css" />
 
-    <!-- alert stylesheet -->
-    <link rel="stylesheet" href="alert.css" />
+    <!-- Input stylesheet -->
+    <link rel="stylesheet" href="input.css" />
 
-    <title>AM-Alert</title>
+    <title>AM-Input</title>
   </head>
+
   <body>
     <header>
       <nav class="desktop">
@@ -174,37 +175,28 @@
       </aside>
       <main>
         <div class="header">
-          <!-- alert starts here -->
-          <h2>Alert</h2>
+          <!-- Input starts here -->
+          <h2>Input</h2>
           <hr />
           <p>
-            Alert messages inform user about the success or faliure of a task
+            Inputs are used to take data from the user and interact with the
+            website.
           </p>
+          <!-- Input with textbox -->
+          <div class="textbox">
+            <h3>TextBox</h3>
 
-          <button class="success-button border-radius-L">Success</button>
-          <div class="success-alert border-radius-S">
-            <i class="fas fa-check-circle"></i>
-            <p>success task</p>
-            <button class="close-success-alert">x</button>
-          </div>
-          <button class="error-button border-radius-L">Error</button>
-          <div class="error-alert border-radius-S">
-            <i class="fas fa-exclamation-circle"></i>
-            <p>error occured</p>
-            <button class="close-error-alert">x</button>
-          </div>
-          <button class="warning-button border-radius-L">Warning</button>
-          <div class="warning-alert border-radius-S">
-            <i class="fas fa-exclamation-triangle"></i>
-            <p>try again!</p>
-            <button class="close-warning-alert">x</button>
+            <textarea
+              class="text-area border-radius-L"
+              placeholder="Start typing here..."
+            ></textarea>
           </div>
 
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2520%2520%253Cbutton%2520class%253D%2522success-button%2520border-radius-L%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522success-alert%2520border-radius-S%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-check-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Esuccess%2520task%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close-success-alert%2522%253Ex%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522error-button%2520border-radius-L%2522%253EError%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522error-alert%2520border-radius-S%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Eerror%2520occured%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close-error-alert%2522%253Ex%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522warning-button%2520border-radius-L%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522warning-alert%2520border-radius-S%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-exclamation-triangle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Etry%2520again%21%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522close-warning-alert%2522%253Ex%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Ctextarea%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522text-area%2520border-radius-L%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Start%2520typing%2520here...%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Ftextarea%253E"
             style="
               width: 100%;
-              height: 489px;
+              height: 242px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
@@ -212,11 +204,50 @@
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>
+
+          <!-- Input with error style -->
+          <div class="validations">
+            <h3>Validations</h3>
+
+            <div class="container-valid">
+              <div class="valid">
+                <input
+                  type="text"
+                  class="valid-input border-radius-L"
+                  placeholder="Email"
+                />
+                <h4>Valid email</h4>
+              </div>
+
+              <div class="invalid">
+                <input
+                  type="text"
+                  class="invalid-input border-radius-L"
+                  placeholder="Email"
+                />
+                <h4>Invalid email</h4>
+              </div>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522container-valid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522valid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522valid-input%2520border-radius-L%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Email%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EValid%2520email%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522invalid%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cinput%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520type%253D%2522text%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522invalid-input%2520border-radius-L%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520placeholder%253D%2522Email%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253EInvalid%2520email%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            style="
+              width: 100%;
+              height: 522px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <!-- Input ends here -->
         </div>
       </main>
     </div>
 
     <script src="/landingpage/component-landing.js"></script>
-    <script src="alert.js"></script>
   </body>
 </html>
