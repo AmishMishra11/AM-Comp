@@ -203,78 +203,22 @@
           <h2>Cards</h2>
           <hr />
           <p>Card is used to show related information about something.</p>
-          <!-- Card with badge -->
+          <h3>Card with badge</h3>
+          <p>
+            Here cards appear with a badge to use this use class
+            <span>card</span> on the container and use class <span>badge</span>.
+          </p>
 
-          <div class="card-1">
-            <h3>Card with badge</h3>
-
-            <div class="card">
-              <img class="item" src="/images/cardImage.jpg" />
-              <a class="badge" href=""><i class="fas fa-heart"></i></a>
-              <h2>Marvel Shirt</h2>
-              <h4>₹999</h4>
-              <a class="card-btn border-radius-S" href="">Add to cart</a>
-            </div>
+          <div class="card">
+            <img class="item" src="/images/cardImage.jpg" />
+            <a class="badge" href="#"><i class="fas fa-heart"></i></a>
+            <h2>Marvel Shirt</h2>
+            <h4>₹999</h4>
+            <a class="card-btn border-radius-S" href="">Add to cart</a>
           </div>
 
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522item%2522%2520src%253D%2522%252Fimages%252FcardImage.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522badge%2522%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EMarvel%2520Shirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E%25E2%2582%25B9999%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522card-btn%2520border-radius-S%2522%2520href%253D%2522%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-            style="
-              width: 100%;
-              height: 284px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-          <!-- Card with dismiss -->
-
-          <div class="card-2">
-            <h3>Card with dismiss</h3>
-
-            <div class="card dismiss-card">
-              <img class="item" src="/images/cardImage.jpg" />
-              <a class="badge" href=""><i class="fas fa-heart"></i></a>
-              <button class="dismiss">
-                <i class="fas fa-2x fa-trash"></i>
-              </button>
-              <h2>Marvel Shirt</h2>
-              <h4>₹999</h4>
-              <a class="card-btn border-radius-S" href="">Add to cart</a>
-            </div>
-          </div>
-
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card%2520dismiss-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522item%2522%2520src%253D%2522%252Fimages%252FcardImage.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522badge%2522%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-2x%2520fa-trash%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EMarvel%2520Shirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E%25E2%2582%25B9999%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522card-btn%2520border-radius-S%2522%2520href%253D%2522%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-            style="
-              width: 100%;
-              height: 359px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-
-          <!-- Card with text overlay -->
-
-          <div class="card-3">
-            <h3>Card with Text overlay</h3>
-
-            <div class="card overlay">
-              <img class="item" src="/images/cardImage.jpg" />
-              <a class="badge" href=""><i class="fas fa-heart"></i></a>
-              <h2>Marvel Shirt</h2>
-              <h4>₹999</h4>
-              <a class="card-btn border-radius-S" href="">Add to cart</a>
-            </div>
-          </div>
-
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2509%2509%2509%253Cdiv%2520class%253D%2522card%2520overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522item%2522%2520src%253D%2522%252Fimages%252FcardImage.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522badge%2522%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EMarvel%2520Shirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E%25E2%2582%25B9999%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522card-btn%2520border-radius-S%2522%2520href%253D%2522%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522item%2522%2520src%253D%2522%252Fimages%252FcardImage.jpg%2522%2520%252F%253E%250A%2520%2520%253Ca%2520class%253D%2522badge%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%253Ch2%253EMarvel%2520Shirt%253C%252Fh2%253E%250A%2520%2520%253Ch4%253E%25E2%2582%25B9999%253C%252Fh4%253E%250A%2520%2520%253Ca%2520class%253D%2522card-btn%2520border-radius-S%2522%2520href%253D%2522%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%253C%252Fdiv%253E"
             style="
               width: 100%;
               height: 284px;
@@ -286,24 +230,83 @@
           >
           </iframe>
 
-          <!-- Text only -->
+          <h3>Card with dismiss</h3>
+          <p>
+            Here cards appear with a badge to dismiss the card to use this use
+            class
+            <span>card dismiss-card</span> on the container and use class
+            <span>dismiss</span>.
+          </p>
 
-          <div class="card-4">
-            <h3>Card with Text only</h3>
-
-            <div class="card text">
-              <h2>Marvel Shirt</h2>
-              <p>
-                Red Marvel casual shirt, has a round collar, a full cotton, half
-                sleeves , a marvel logo.
-              </p>
-              <h4>₹999</h4>
-              <a class="card-btn border-radius-S" href="">Add to cart</a>
-            </div>
+          <div class="card dismiss-card">
+            <img class="item" src="/images/cardImage.jpg" />
+            <a class="badge" href="#"><i class="fas fa-heart"></i></a>
+            <button class="dismiss">
+              <i class="fas fa-2x fa-trash"></i>
+            </button>
+            <h2>Marvel Shirt</h2>
+            <h4>₹999</h4>
+            <a class="card-btn border-radius-S" href="">Add to cart</a>
           </div>
 
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2509%2509%2509%2520%253Cdiv%2520class%253D%2522card%2520text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EMarvel%2520Shirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Red%2520Marvel%2520casual%2520shirt%252C%2520has%2520a%2520round%2520collar%252C%2520a%2520full%2520cotton%252C%2520half%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520sleeves%2520%252C%2520a%2520marvel%2520logo.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E%25E2%2582%25B9999%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522card-btn%2520border-radius-S%2522%2520href%253D%2522%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520dismiss-card%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522item%2522%2520src%253D%2522%252Fimages%252FcardImage.jpg%2522%2520%252F%253E%250A%2520%2520%253Ca%2520class%253D%2522badge%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%253Cbutton%2520class%253D%2522dismiss%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-2x%2520fa-trash%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fbutton%253E%250A%2520%2520%253Ch2%253EMarvel%2520Shirt%253C%252Fh2%253E%250A%2520%2520%253Ch4%253E%25E2%2582%25B9999%253C%252Fh4%253E%250A%2520%2520%253Ca%2520class%253D%2522card-btn%2520border-radius-S%2522%2520href%253D%2522%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 100%;
+              height: 340px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <h3>Card with Text overlay</h3>
+          <p>
+            Here cards appear with text over the image. To use this use class
+            <span>card overlay</span> on the parent container.
+          </p>
+
+          <div class="card overlay">
+            <img class="item" src="/images/cardImage.jpg" />
+            <a class="badge" href="#"><i class="fas fa-heart"></i></a>
+            <h2>Marvel Shirt</h2>
+            <h4>₹999</h4>
+            <a class="card-btn border-radius-S" href="">Add to cart</a>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520overlay%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522item%2522%2520src%253D%2522%252Fimages%252FcardImage.jpg%2522%2520%252F%253E%250A%2520%2520%253Ca%2520class%253D%2522badge%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%253Ch2%253EMarvel%2520Shirt%253C%252Fh2%253E%250A%2520%2520%253Ch4%253E%25E2%2582%25B9999%253C%252Fh4%253E%250A%2520%2520%253Ca%2520class%253D%2522card-btn%2520border-radius-S%2522%2520href%253D%2522%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 100%;
+              height: 284px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <h3>Card with Text only</h3>
+          <p>
+            Here the card only have text and no image. To use this use class
+            <span> card text</span>.
+          </p>
+
+          <div class="card text">
+            <h2>Marvel Shirt</h2>
+            <p>
+              Red Marvel casual shirt, has a round collar, a full cotton, half
+              sleeves , a marvel logo.
+            </p>
+            <h4>₹999</h4>
+            <a class="card-btn border-radius-S" href="#">Add to cart</a>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520text%2522%253E%250A%2520%2520%253Ch2%253EMarvel%2520Shirt%253C%252Fh2%253E%250A%2520%2520%253Cp%253E%250A%2520%2520%2520%2520Red%2520Marvel%2520casual%2520shirt%252C%2520has%2520a%2520round%2520collar%252C%2520a%2520full%2520cotton%252C%2520half%250A%2520%2520%2520%2520sleeves%2520%252C%2520a%2520marvel%2520logo.%250A%2520%2520%253C%252Fp%253E%250A%2520%2520%253Ch4%253E%25E2%2582%25B9999%253C%252Fh4%253E%250A%2520%2520%253Ca%2520class%253D%2522card-btn%2520border-radius-S%2522%2520href%253D%2522%2523%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%253C%252Fdiv%253E"
             style="
               width: 100%;
               height: 322px;
@@ -315,28 +318,28 @@
           >
           </iframe>
 
-          <!-- Horizontal card -->
+          <h3>Horizontal Card</h3>
+          <p>
+            Here the contonents of the card appear horizontally. To use this use
+            class <span>card horizontal</span>.
+          </p>
 
-          <div class="card-5">
-            <h3>Horizontal Card</h3>
-
-            <div class="card horizontal">
-              <div class="horizontal-container">
-                <img class="item" src="/images/cardImage.jpg" />
-                <div class="text-container">
-                  <h2>Marvel Shirt</h2>
-                  <h4>₹999</h4>
-                </div>
+          <div class="card horizontal">
+            <div class="horizontal-container">
+              <img class="item" src="/images/cardImage.jpg" />
+              <div class="text-container">
+                <h2>Marvel Shirt</h2>
+                <h4>₹999</h4>
               </div>
-              <a class="badge" href="">
-                <i class="fas fa-heart fa-xs"></i>
-              </a>
-              <a class="card-btn border-radius-S" href="">Add to cart</a>
             </div>
+            <a class="badge" href="#">
+              <i class="fas fa-heart fa-xs"></i>
+            </a>
+            <a class="card-btn border-radius-S" href="#">Add to cart</a>
           </div>
 
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2509%2509%2509%2520%253Cdiv%2520class%253D%2522card%2520horizontal%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522horizontal-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522item%2522%2520src%253D%2522%252Fimages%252FcardImage.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EMarvel%2520Shirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E%25E2%2582%25B9999%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522badge%2522%2520href%253D%2522%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520fa-xs%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522card-btn%2520border-radius-S%2522%2520href%253D%2522%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520horizontal%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522horizontal-container%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522item%2522%2520src%253D%2522%252Fimages%252FcardImage.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch2%253EMarvel%2520Shirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%253Ch4%253E%25E2%2582%25B9999%253C%252Fh4%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Ca%2520class%253D%2522badge%2522%2520href%253D%2522%2523%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520fa-xs%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fa%253E%250A%2520%2520%253Ca%2520class%253D%2522card-btn%2520border-radius-S%2522%2520href%253D%2522%2523%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%253C%252Fdiv%253E"
             style="
               width: 100%;
               height: 396px;
@@ -347,22 +350,22 @@
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>
-          <!-- Card with shadow -->
+          <h3>Card with shadow</h3>
+          <p>
+            Here the card appear with a shadow for better looks. To use this use
+            class <span>card shadow</span>.
+          </p>
 
-          <div class="card-6">
-            <h3>Card with shadow</h3>
-
-            <div class="card shadow">
-              <img class="item" src="/images/cardImage.jpg" />
-              <a class="badge" href=""><i class="fas fa-heart"></i></a>
-              <h2>Marvel Shirt</h2>
-              <h4>₹999</h4>
-              <a class="card-btn border-radius-S" href="">Add to cart</a>
-            </div>
+          <div class="card shadow">
+            <img class="item" src="/images/cardImage.jpg" />
+            <a class="badge" href="#"><i class="fas fa-heart"></i></a>
+            <h2>Marvel Shirt</h2>
+            <h4>₹999</h4>
+            <a class="card-btn border-radius-S" href="#">Add to cart</a>
           </div>
 
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2509%2509%2509%2520%253Cdiv%2520class%253D%2522card%2520shadow%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522item%2522%2520src%253D%2522%252Fimages%252FcardImage.jpg%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522badge%2522%2520href%253D%2522%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EMarvel%2520Shirt%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253E%25E2%2582%25B9999%253C%252Fh4%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520class%253D%2522card-btn%2520border-radius-S%2522%2520href%253D%2522%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520shadow%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522item%2522%2520src%253D%2522%252Fimages%252FcardImage.jpg%2522%2520%252F%253E%250A%2520%2520%253Ca%2520class%253D%2522badge%2522%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%253Ch2%253EMarvel%2520Shirt%253C%252Fh2%253E%250A%2520%2520%253Ch4%253E%25E2%2582%25B9999%253C%252Fh4%253E%250A%2520%2520%253Ca%2520class%253D%2522card-btn%2520border-radius-S%2522%2520href%253D%2522%2523%2522%253EAdd%2520to%2520cart%253C%252Fa%253E%250A%253C%252Fdiv%253E"
             style="
               width: 100%;
               height: 284px;
