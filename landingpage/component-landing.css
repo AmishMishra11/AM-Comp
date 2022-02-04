@@ -50,6 +50,9 @@ nav ul {
 nav li {
   padding: var(--gap-smallest);
 }
+p {
+  padding: var(--gap-small);
+}
 
 /* container */
 
