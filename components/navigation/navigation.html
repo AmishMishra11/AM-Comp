@@ -7,12 +7,11 @@
     <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="/landingpage/component-landing.css" />
 
-    <!-- Input stylesheet -->
-    <link rel="stylesheet" href="images.css" />
+    <!-- alert stylesheet -->
+    <link rel="stylesheet" href="navigation.css" />
 
-    <title>AM-Images</title>
+    <title>AM-Navigation</title>
   </head>
-
   <body>
     <header>
       <nav class="desktop">
@@ -213,27 +212,60 @@
       </aside>
       <main>
         <div class="header">
-          <!-- Images starts here -->
-          <h2>Images</h2>
+          <!-- navigation starts here -->
+          <h2>Navigation</h2>
           <hr />
           <p>
-            Images are used for good design and also used to display infromation
-            viually.
+            Navigation is used to tarvel between different web pages in your
+            website.
           </p>
 
-          <h3>Responsive Image</h3>
+          <h3>Navigation with SearchBar</h3>
           <p>
-            This is a responsive image. It adjust itself with the screen size.
-            To use this use class <span>responsive-image</span>
+            To use this navigation bar in your website use class
+            <span> nav</span> on the parent container with the class
+            <span>title</span> for title, class <span>search</span> for the
+            search bar and class <span>menu</span> for the extra icons that you
+            may need.
           </p>
 
-          <img class="responsive-image" src="/images/coding.jpg" alt="coding" />
+          <div class="nav">
+            <header>
+              <div class="title">
+                <p class="name">Title</p>
+              </div>
+
+              <div class="search">
+                <input type="text" placeholder="waht are you looking for" />
+                <button>
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+
+              <ul class="menu">
+                <li>
+                  <a href="#"><i class="fas fa-upload"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="far fa-heart"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="far fa-bell"></i></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="profile far fa-2x fa-user-circle"></i
+                  ></a>
+                </li>
+              </ul>
+            </header>
+          </div>
 
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522responsive-image%2522%2520src%253D%2522%252Fimages%252Fcoding.jpg%2522%2520alt%253D%2522coding%2522%2520%252F%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522nav%2522%253E%250A%2520%2520%253Cheader%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522title%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522name%2522%253ETitle%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522search%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cinput%2520type%253D%2522text%2522%2520placeholder%253D%2522waht%2520are%2520you%2520looking%2520for%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%253Cbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-search%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%253Cul%2520class%253D%2522menu%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522fas%2520fa-upload%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253E%253Ci%2520class%253D%2522far%2520fa-bell%2522%253E%253C%252Fi%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%2520%2520%253Cli%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253E%253Ci%2520class%253D%2522profile%2520far%2520fa-2x%2520fa-user-circle%2522%253E%253C%252Fi%250A%2520%2520%2520%2520%2520%2520%2520%2520%253E%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fli%253E%250A%2520%2520%2520%2520%253C%252Ful%253E%250A%2520%2520%253C%252Fheader%253E%250A%253C%252Fdiv%253E"
             style="
               width: 100%;
-              height: 173px;
+              height: 731px;
               border: 0;
               transform: scale(1);
               overflow: hidden;
@@ -241,31 +273,8 @@
             sandbox="allow-scripts allow-same-origin"
           >
           </iframe>
-
-          <h3>Round Image</h3>
-
-          <p>
-            This is a round image. It is shaped like a circle, usually used to
-            display user profile. To use this use class
-            <span>round-image </span>.
-          </p>
-
-          <img class="round-image" src="/images/user-coding.jpg" alt="coding" />
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cimg%2520class%253D%2522round-image%2522%2520src%253D%2522%252Fimages%252Fuser-coding.jpg%2522%2520alt%253D%2522coding%2522%2520%252F%253E"
-            style="
-              width: 100%;
-              height: 173px;
-              border: 0;
-              transform: scale(1);
-              overflow: hidden;
-            "
-            sandbox="allow-scripts allow-same-origin"
-          >
-          </iframe>
-
-          <!-- Image Ends here -->
         </div>
+        <!-- navigation ends here -->
       </main>
     </div>
 

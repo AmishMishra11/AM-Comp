@@ -96,6 +96,12 @@ aside ul {
 aside a:focus {
   background-color: var(--extra-color);
 }
+aside ul li a {
+  min-width: 8rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
 
 /* content for main */
 

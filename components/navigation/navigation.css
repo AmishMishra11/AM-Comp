@@ -1,0 +1,82 @@
+@import url(/stylesheets/default.css);
+
+main header {
+  height: 100%;
+}
+.navigation-link {
+  background-color: var(--extra-color);
+}
+
+main .header p {
+  margin: 1rem 0;
+}
+/* navigation css here */
+.nav {
+  z-index: 0;
+  width: 100%;
+}
+.nav .title {
+  color: black;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+.nav .name {
+  margin-left: 2rem;
+}
+.nav .profile {
+  background-color: pink;
+  border-radius: 50%;
+}
+
+.nav header {
+  align-items: center;
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav .menu {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+.nav .search {
+  padding: 1rem;
+  display: flex;
+  flex-basis: 50%;
+}
+.nav input {
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 3rem;
+}
+.nav button {
+  background-color: rgb(255, 182, 182);
+  padding: 10px;
+  border-radius: 1rem;
+}
+.nav a {
+  color: black;
+  /* background-color: blue; */
+}
+.nav a:hover {
+  background-color: var(--primary-color);
+  opacity: 65%;
+}
+
+.nav a:active {
+  background-color: var(--primary-color);
+  opacity: 165%;
+}
+
+@media (max-width: 973px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+@media (max-width: 517px) {
+  .nav input {
+    display: none;
+  }
+}
