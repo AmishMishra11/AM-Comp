@@ -60,10 +60,15 @@ h1 {
 h2 {
   font-size: 2rem;
 }
-p {
+.container-main p {
   font-size: 1.5rem;
   text-align: justify;
   width: 70%;
+  padding: var(--gap-large);
+}
+p {
+  font-size: 1.5rem;
+  text-align: justify;
   padding: var(--gap-large);
 }
 span {
