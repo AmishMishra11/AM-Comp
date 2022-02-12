@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="/landingpage/component-landing.css" />
 
-    <!-- Avatar stylesheet -->
-    <link rel="stylesheet" href="avatar.css" />
+    <!-- Input stylesheet -->
+    <link rel="stylesheet" href="grid.css" />
 
-    <title>AM-Avatar</title>
+    <title>AM-Grids</title>
   </head>
 
   <body>
@@ -124,6 +124,7 @@
               >Card</a
             >
           </li>
+
           <li>
             <a
               class="border-radius-S grid-link"
@@ -131,6 +132,7 @@
               >Grid</a
             >
           </li>
+
           <li>
             <a
               class="border-radius-S images-link"
@@ -195,6 +197,7 @@
               >Card</a
             >
           </li>
+
           <li>
             <a
               class="border-radius-S grid-link"
@@ -202,6 +205,7 @@
               >Grid</a
             >
           </li>
+
           <li>
             <a
               class="border-radius-S images-link"
@@ -227,41 +231,56 @@
       </aside>
       <main>
         <div class="header">
-          <!-- Avatar starts here -->
-          <h2>Avatar</h2>
+          <!-- Grids starts here -->
+          <h2>Grid</h2>
           <hr />
-          <p>Avatar are rounded images used to display user profile.</p>
-
-          <!-- Avatars -->
-          <h3>Avatars</h3>
           <p>
-            There are three types of Avatars available each with different size.
-            In the Image tag use <span> avatar</span> class along with the size
-            you need eg- <span> av-s</span> for small avatar,
-            <span> av-m</span> for medium avatar, <span>av-l </span> for large
-            avatars.
+            The CSS Grid Layout Module offers a grid-based layout system, with
+            rows and columns, making it easier to design web pages.
           </p>
 
-          <div class="container-avatar">
-            <img
-              class="avatar av-s"
-              src="/images/user-coding.jpg"
-              alt="coding"
-            />
-            <img
-              class="avatar av-m"
-              src="/images/user-coding.jpg"
-              alt="coding"
-            />
-            <img
-              class="avatar av-l"
-              src="/images/user-coding.jpg"
-              alt="coding"
-            />
+          <h3>Grid with 2 columns</h3>
+          <p>
+            This is a responsive responsive grid design with 2 columns. Use
+            class
+            <span>grid grid-2</span> on the container and use class
+            <span>grid-item</span> on the child.
+          </p>
+
+          <div class="grid grid-2">
+            <div class="grid-item">One</div>
+            <div class="grid-item">Two</div>
           </div>
 
           <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container-avatar%2522%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520av-s%2522%2520src%253D%2522%252Fimages%252Fuser-coding.jpg%2522%2520alt%253D%2522coding%2522%2520%252F%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520av-m%2522%2520src%253D%2522%252Fimages%252Fuser-coding.jpg%2522%2520alt%253D%2522coding%2522%2520%252F%253E%250A%2520%2520%253Cimg%2520class%253D%2522avatar%2520av-l%2522%2520src%253D%2522%252Fimages%252Fuser-coding.jpg%2522%2520alt%253D%2522coding%2522%2520%252F%253E%250A%253C%252Fdiv%253E"
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-2%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EOne%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253ETwo%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 100%;
+              height: 229px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <h3>Grid with 3 columns</h3>
+          <p>
+            This is a responsive responsive grid design with 3 columns. Use
+            class
+            <span>grid grid-3</span> on the container and use class
+            <span>grid-item</span> on the child.
+          </p>
+
+          <div class="grid grid-3">
+            <div class="grid-item">One</div>
+            <div class="grid-item">Two</div>
+            <div class="grid-item">Three</div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522grid%2520grid-3%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EOne%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253ETwo%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522grid-item%2522%253EThree%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
             style="
               width: 100%;
               height: 247px;
@@ -273,7 +292,7 @@
           >
           </iframe>
 
-          <!-- Avatar Ends here -->
+          <!-- Grid Ends here -->
         </div>
       </main>
     </div>
