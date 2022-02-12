@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="/landingpage/component-landing.css" />
 
-    <title>AM-Components</title>
+    <!-- Input stylesheet -->
+    <link rel="stylesheet" href="toast.css" />
+
+    <title>AM-Toast</title>
   </head>
+
   <body>
     <header>
       <nav class="desktop">
@@ -243,12 +247,46 @@
       </aside>
       <main>
         <div class="header">
-          <h1>Hi Welcome to my component liberary.</h1>
-          <h2>Click on any components to begin</h2>
+          <!-- Toasts starts here -->
+          <h2>Toast</h2>
+          <hr />
+          <p>
+            Toast inform user about any action that the user has performed or is
+            about to perform.
+          </p>
+
+          <h3>Basic Toast</h3>
+          <p>
+            This is a responsive basic toast. To use this use class
+            <span>toat </span> on the parent container.
+          </p>
+
+          <div class="toast">
+            <p>Could not connect. Retry!</p>
+            <div class="toast-action">
+              <a href="#">Retry</a>
+              <button>x</button>
+            </div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522toast%2522%253E%250A%2520%2520%253Cp%253ECould%2520not%2520connect.%2520Retry%21%253C%252Fp%253E%250A%2520%2520%253Cdiv%2520class%253D%2522toast-link%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%253ERetry%253C%252Fa%253E%250A%2520%2520%2520%2520%253Cbutton%253Ex%253C%252Fbutton%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 100%;
+              height: 284px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <!-- Toast Ends here -->
         </div>
       </main>
     </div>
 
-    <script src="component-landing.js"></script>
+    <script src="/landingpage/component-landing.js"></script>
   </body>
 </html>
