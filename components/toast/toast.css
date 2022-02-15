@@ -1,0 +1,46 @@
+@import url(/stylesheets/default.css);
+
+main header {
+  height: 100%;
+}
+.toast-link {
+  background-color: var(--extra-color);
+}
+
+/* toast css */
+
+.toast {
+  background-color: var(--secondary-color);
+  width: 80%;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toast-action {
+  display: flex;
+  align-items: center;
+  padding: var(--gap-small);
+}
+.toast-action a {
+  border-radius: 5px;
+  padding: var(--gap-smallest);
+  margin: var(--gap-small);
+  color: black;
+}
+
+.toast-action a:hover {
+  background-color: var(--primary-color);
+  opacity: 73%;
+}
+.toast-action a:active {
+  background-color: var(--primary-color);
+  opacity: 163%;
+}
+
+button {
+  border-radius: 50%;
+  background-color: var(--extra-color);
+  padding: var(--gap-smallest);
+}
