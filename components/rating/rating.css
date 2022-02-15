@@ -1,0 +1,25 @@
+@import url(/stylesheets/default.css);
+
+main header {
+  height: 100%;
+}
+.rating-link {
+  background-color: var(--extra-color);
+}
+
+/* Rating css */
+
+.container-rating {
+  display: flex;
+}
+.stars {
+  display: flex;
+}
+
+.rating {
+  margin-left: 1rem;
+}
+
+.active {
+  color: var(--extra-color);
+}
