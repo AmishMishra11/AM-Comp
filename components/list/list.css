@@ -19,7 +19,6 @@ main header {
   padding: var(--gap-small);
   margin: var(--gap-small);
   background-color: var(--extra-color);
-  border-radius: 5px;
 }
 
 .stacked {
