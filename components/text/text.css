@@ -1,0 +1,60 @@
+@import url(/stylesheets/default.css);
+
+main header {
+  height: 100%;
+}
+.text-link {
+  background-color: var(--extra-color);
+}
+
+/* text css */
+
+.headings > * {
+  margin: var(--gap-small);
+}
+
+.h1 {
+  font-size: 3rem;
+}
+.h2 {
+  font-size: 2.5rem;
+}
+.h3 {
+  font-size: 2rem;
+}
+.h4 {
+  font-size: 1.6rem;
+}
+.h5 {
+  font-size: 1.2rem;
+}
+.h6 {
+  font-size: 0.8rem;
+}
+
+.large {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.medium {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.small {
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.container-text {
+  width: 15rem;
+  border: 2px solid var(--extra-color);
+}
+
+.grey {
+  color: var(--secondary-color);
+}
+.center {
+  text-align: center;
+}

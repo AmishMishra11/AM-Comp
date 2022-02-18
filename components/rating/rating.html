@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="/landingpage/component-landing.css" />
 
-    <title>AM-Components</title>
+    <!-- Input stylesheet -->
+    <link rel="stylesheet" href="rating.css" />
+
+    <title>AM-Rating</title>
   </head>
+
   <body>
     <header>
       <nav class="desktop">
@@ -143,22 +147,6 @@
               >Input</a
             >
           </li>
-          
-          
-          
-          
-           <li>
-            <a class="border-radius-S modal-link"
-              href="/components/modal/modal.html"
-              >Modal</a>
-          </li>
-
-          <li>
-            <a class="border-radius-S list-link"
-              href="/components/list/list.html"
-              >List</a>
-          </li>
-
           <li>
             <a
               class="border-radius-S navigation-link"
@@ -166,32 +154,14 @@
               >Navigation</a
             >
           </li>
-          
-           <li>
-            <a
-              class="border-radius-S text-link"
-              href="/components/text/text.html"
-              >Text
-            </a>
-          </li>
-          
-           <li>
+
+          <li>
             <a
               class="border-radius-S rating-link"
               href="/components/rating/rating.html"
               >Rating</a
             >
           </li>
-          
-           <li>
-            <a
-              class="border-radius-S toast-link"
-              href="/components/toast/toast.html"
-              >Toast</a
-            >
-          </li>
-          
-
         </ul>
       </aside>
     </nav>
@@ -258,20 +228,6 @@
               >Input</a
             >
           </li>
-
-        
-           <li>
-            <a class="border-radius-S modal-link"
-              href="/components/modal/modal.html"
-              >Modal</a>
-          </li>
-
-          <li>
-            <a class="border-radius-S list-link"
-              href="/components/list/list.html"
-              >List</a>
-          </li>
-
           <li>
             <a
               class="border-radius-S navigation-link"
@@ -279,38 +235,60 @@
               >Navigation</a
             >
           </li>
-             <li>
-            <a
-              class="border-radius-S text-link"
-              href="/components/text/text.html"
-              >Text
-            </a>
-          </li>
-              <li>
+
+          <li>
             <a
               class="border-radius-S rating-link"
               href="/components/rating/rating.html"
               >Rating</a
             >
           </li>
-             <li>
-            <a
-              class="border-radius-S toast-link"
-              href="/components/toast/toast.html"
-              >Toast</a
-            >
-          </li>
-
         </ul>
       </aside>
       <main>
         <div class="header">
-          <h1>Hi Welcome to my component liberary.</h1>
-          <h2>Click on any components to begin</h2>
+          <!-- Rating starts here -->
+          <h2>Rating</h2>
+          <hr />
+          <p>
+            Ratings are the star ratings that customers give to your products.
+          </p>
+
+          <h3>Simple Rating</h3>
+          <p>
+            To use rating as stars use class <span>container-rating</span> for
+            parent container and class <span>star</span>.
+          </p>
+
+          <div class="container-rating">
+            <div class="stars">
+              <i class="fas fa-star active"></i>
+              <i class="fas fa-star active"></i>
+              <i class="fas fa-star active"></i>
+              <i class="fas fa-star active"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="rating">4</div>
+          </div>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522container-rating%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522stars%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520active%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520active%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520active%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2520active%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-star%2522%253E%253C%252Fi%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522rating%2522%253E4%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 100%;
+              height: 340px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <!-- Rating Ends here -->
         </div>
       </main>
     </div>
 
-    <script src="component-landing.js"></script>
+    <script src="/landingpage/component-landing.js"></script>
   </body>
 </html>

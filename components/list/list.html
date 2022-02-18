@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
     <link rel="stylesheet" href="/landingpage/component-landing.css" />
 
-    <title>AM-Components</title>
+    <!-- Input stylesheet -->
+    <link rel="stylesheet" href="list.css" />
+
+    <title>AM-List</title>
   </head>
+
   <body>
     <header>
       <nav class="desktop">
@@ -143,22 +147,14 @@
               >Input</a
             >
           </li>
-          
-          
-          
-          
-           <li>
-            <a class="border-radius-S modal-link"
-              href="/components/modal/modal.html"
-              >Modal</a>
-          </li>
 
           <li>
-            <a class="border-radius-S list-link"
+            <a
+              class="border-radius-S list-link"
               href="/components/list/list.html"
-              >List</a>
+              >List</a
+            >
           </li>
-
           <li>
             <a
               class="border-radius-S navigation-link"
@@ -166,32 +162,6 @@
               >Navigation</a
             >
           </li>
-          
-           <li>
-            <a
-              class="border-radius-S text-link"
-              href="/components/text/text.html"
-              >Text
-            </a>
-          </li>
-          
-           <li>
-            <a
-              class="border-radius-S rating-link"
-              href="/components/rating/rating.html"
-              >Rating</a
-            >
-          </li>
-          
-           <li>
-            <a
-              class="border-radius-S toast-link"
-              href="/components/toast/toast.html"
-              >Toast</a
-            >
-          </li>
-          
-
         </ul>
       </aside>
     </nav>
@@ -259,19 +229,13 @@
             >
           </li>
 
-        
-           <li>
-            <a class="border-radius-S modal-link"
-              href="/components/modal/modal.html"
-              >Modal</a>
-          </li>
-
           <li>
-            <a class="border-radius-S list-link"
+            <a
+              class="border-radius-S list-link"
               href="/components/list/list.html"
-              >List</a>
+              >List</a
+            >
           </li>
-
           <li>
             <a
               class="border-radius-S navigation-link"
@@ -279,38 +243,76 @@
               >Navigation</a
             >
           </li>
-             <li>
-            <a
-              class="border-radius-S text-link"
-              href="/components/text/text.html"
-              >Text
-            </a>
-          </li>
-              <li>
-            <a
-              class="border-radius-S rating-link"
-              href="/components/rating/rating.html"
-              >Rating</a
-            >
-          </li>
-             <li>
-            <a
-              class="border-radius-S toast-link"
-              href="/components/toast/toast.html"
-              >Toast</a
-            >
-          </li>
-
         </ul>
       </aside>
       <main>
         <div class="header">
-          <h1>Hi Welcome to my component liberary.</h1>
-          <h2>Click on any components to begin</h2>
+          <!-- Lists starts here -->
+          <h2>List</h2>
+          <hr />
+          <p>
+            A list is used to group related content. They are used in
+            navbars,sidebars and many other components.
+          </p>
+
+          <h3>Spaced List</h3>
+          <p>
+            This is a normal list use ul tag with class <span>list</span> and
+            for li use class <span>list-item</span>.
+          </p>
+
+          <ul class="list border-radius-S">
+            <li class="list-item border-radius-S">Item 1</li>
+            <li class="list-item border-radius-S">Item 2</li>
+            <li class="list-item border-radius-S">Item 3</li>
+            <li class="list-item border-radius-S">Item 4</li>
+          </ul>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%253Cul%2520class%253D%2522list%2520border-radius-S%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2520border-radius-S%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2520border-radius-S%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2520border-radius-S%2522%253EItem%25203%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2520border-radius-S%2522%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E"
+            style="
+              width: 100%;
+              height: 284px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <h3>Stacked List</h3>
+          <p>
+            This is a stacked list used for notification panel, for ul tag use
+            class <span>list stacked</span> and for li use class
+            <span>list-item</span>.
+          </p>
+
+          <ul class="list stacked border-radius-S">
+            <li class="list-item border-radius-S">Item 1</li>
+            <li class="list-item border-radius-S">Item 2</li>
+            <li class="list-item border-radius-S">Item 3</li>
+            <li class="list-item border-radius-S">Item 4</li>
+          </ul>
+
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=47px&ph=30px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cul%2520class%253D%2522list%2520stacked%2520border-radius-S%2522%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2520border-radius-S%2522%253EItem%25201%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2520border-radius-S%2522%253EItem%25202%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2520border-radius-S%2522%253EItem%25203%253C%252Fli%253E%250A%2520%2520%253Cli%2520class%253D%2522list-item%2520border-radius-S%2522%253EItem%25204%253C%252Fli%253E%250A%253C%252Ful%253E"
+            style="
+              width: 100%;
+              height: 266px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+
+          <!-- List Ends here -->
         </div>
       </main>
     </div>
 
-    <script src="component-landing.js"></script>
+    <script src="/landingpage/component-landing.js"></script>
   </body>
 </html>
