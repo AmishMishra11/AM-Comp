@@ -1,0 +1,37 @@
+@import url(/stylesheets/default.css);
+
+main header {
+  height: 100%;
+}
+.modal-link {
+  background-color: var(--extra-color);
+}
+
+/* modal css */
+.modal {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  padding: var(--gap-small);
+  margin: var(--gap-medium);
+  background-color: var(--secondary-color);
+}
+
+.header-modal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close {
+  background-color: var(--extra-color);
+  padding: var(--gap-smallest);
+}
+.action-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.action-btn button {
+  margin: var(--gap-smallest);
+  padding: var(--gap-small);
+  background-color: var(--extra-color);
+}
