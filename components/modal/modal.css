@@ -25,14 +25,12 @@ main header {
 .close {
   background-color: var(--extra-color);
   padding: var(--gap-smallest);
-  border-radius: 50%;
 }
 .action-btn {
   display: flex;
   justify-content: flex-end;
 }
 .action-btn button {
-  border-radius: 5px;
   margin: var(--gap-smallest);
   padding: var(--gap-small);
   background-color: var(--extra-color);
