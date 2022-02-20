@@ -169,6 +169,22 @@ aside ul li a {
 
 /* hamburger menu close */
 
+/* darkMode */
+
+main .header.dark {
+  background-color: var(--background-color);
+  color: rgb(231, 231, 231);
+}
+
+.dark-mode {
+  background-color: var(--secondary-color);
+  border-radius: 15px;
+  padding: var(--gap-medium);
+  position: fixed;
+  bottom: 2rem;
+  right: 4rem;
+}
+
 /* media queries */
 
 @media (max-width: 1000px) {

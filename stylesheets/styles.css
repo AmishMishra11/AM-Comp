@@ -115,7 +115,6 @@ span {
 .install {
   width: 80%;
   margin: auto;
-  margin-bottom: 3rem;
 }
 
 .code {
@@ -135,6 +134,22 @@ footer ul {
 }
 footer li {
   padding: var(--gap-medium);
+}
+
+/* darkMode */
+
+.header.dark {
+  background-color: var(--background-color);
+  color: rgb(231, 231, 231);
+}
+
+.dark-mode {
+  background-color: var(--secondary-color);
+  border-radius: 15px;
+  padding: var(--gap-medium);
+  position: fixed;
+  bottom: 2rem;
+  right: 4rem;
 }
 
 /* media query for pad */
